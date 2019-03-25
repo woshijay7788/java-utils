@@ -5,7 +5,7 @@ import org.apache.kafka.clients.producer.Callback;
 /**
  * @author chibei
  */
-public interface IG2Producer {
+public interface IProducer {
 
     /**
      * 往MQ中同步添加一条消息

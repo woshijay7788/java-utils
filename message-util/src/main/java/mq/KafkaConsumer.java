@@ -3,7 +3,7 @@ package mq;
 
 import com.google.common.base.Splitter;
 import mq.api.IConsumerHandler;
-import mq.api.IG2Consumer;
+import mq.api.IConsumer;
 import mq.config.MqConsumerConfig;
 import mq.config.MqRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * @author chibei
  * @description: kafka consumer 消费者
  */
-public class KafkaConsumer implements IG2Consumer {
+public class KafkaConsumer implements IConsumer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KafkaConsumer.class);
 

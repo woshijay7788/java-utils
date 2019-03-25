@@ -1,7 +1,7 @@
 package mq;
 
 import java.util.concurrent.Future;
-import mq.api.IG2Producer;
+import mq.api.IProducer;
 import mq.config.MqProducerConfig;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.apache.kafka.clients.producer.Callback;
@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * @author chibei
  * @description: kafka producer 生产者
  */
-public class KafkaProducer implements IG2Producer {
+public class KafkaProducer implements IProducer {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KafkaProducer.class);
 

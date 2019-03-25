@@ -3,7 +3,7 @@ package mq.api;
 /**
  * @author chibei
  */
-public interface IG2Consumer {
+public interface IConsumer {
     /**
      * 消费者消费时的方法
      */

@@ -9,7 +9,7 @@ import mq.config.MqConsumerConfig;
  */
 public class MqConsumer {
 
-    private IG2Consumer g2Consumer;
+    private IConsumer consumer;
     private String topic;
 
     /**
@@ -19,13 +19,13 @@ public class MqConsumer {
      * @param consumerHandler 消费者执行器
      */
     public MqConsumer(String topic, MqConsumerConfig config, IConsumerHandler consumerHandler) {
-        g2Consumer = new KafkaConsumer(topic, config, consumerHandler);
+        consumer = new KafkaConsumer(topic, config, consumerHandler);
     }
 
     /**
      * 启动该topic的消息监听
      */
     public void run() {
-        g2Consumer.run();
+        consumer.run();
     }
 }

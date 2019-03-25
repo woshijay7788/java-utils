@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  */
 public class MqProducer {
 
-    private IG2Producer producer;
+    private IProducer producer;
     private static final Logger LOG = LoggerFactory.getLogger(MqProducer.class);
 
     public MqProducer(MqProducerConfig config) {
