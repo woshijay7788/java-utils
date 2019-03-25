@@ -10,7 +10,7 @@ import lombok.Setter;
 
 
 /**
- * @Description response实体类
+ * @description response实体类
  * @author chibei
  */
 @Setter

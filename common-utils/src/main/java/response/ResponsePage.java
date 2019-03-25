@@ -6,7 +6,7 @@ import java.util.List;
 import lombok.Data;
 
 /**
- * @Description 分页实体类
+ * @description 分页实体类
  * @author chibei
  */
 @Data

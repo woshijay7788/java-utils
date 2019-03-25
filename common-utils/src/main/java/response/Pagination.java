@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 
 /**
- * @Description 分页参数
+ * @description 分页参数
  * @author chibei
  */
 @Data

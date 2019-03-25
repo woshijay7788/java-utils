@@ -1,7 +1,7 @@
 package constant;
 
 /**
- * @Description 返回状态类
+ * @description 返回状态类
  * @author chibei
  */
 public enum StatusEnum {

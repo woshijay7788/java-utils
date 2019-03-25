@@ -14,7 +14,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.ClassUtils;
 
 /**
- * @Description bean拷贝类
+ * @description bean拷贝类
  * @author chibei
  */
 public class BeanUtil {

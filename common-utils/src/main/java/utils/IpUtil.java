@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @Description ip工具
+ * @description ip工具
  * @author chibei
  */
 @Slf4j
